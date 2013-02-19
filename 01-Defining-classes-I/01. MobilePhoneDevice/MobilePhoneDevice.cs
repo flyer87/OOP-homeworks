@@ -9,5 +9,6 @@ class MobilePhoneDevice
     static void Main()
     {
         // added comment
+        // added second comment
     }
 }
