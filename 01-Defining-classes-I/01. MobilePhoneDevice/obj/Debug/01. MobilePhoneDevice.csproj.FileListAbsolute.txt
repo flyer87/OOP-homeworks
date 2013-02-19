@@ -1,0 +1,1 @@
+E:\TELERIK\OOP-homeworks\01-Defining-classes-I\01. MobilePhoneDevice\bin\Debug\_01.MobilePhoneDevice.exe.config
