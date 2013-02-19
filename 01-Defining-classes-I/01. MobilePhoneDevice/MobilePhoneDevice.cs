@@ -10,5 +10,6 @@ class MobilePhoneDevice
     {
         // added comment
         // added second comment
+        // added third comment line
     }
 }
