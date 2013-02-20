@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\bin\Debug\_02.Constructors.exe.config
+E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\obj\Debug\02. Constructors.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\bin\Debug\_02.Constructors.exe
+E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\bin\Debug\_02.Constructors.pdb
+E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\obj\Debug\_02.Constructors.exe
+E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\obj\Debug\_02.Constructors.pdb
