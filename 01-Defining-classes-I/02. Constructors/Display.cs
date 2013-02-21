@@ -35,7 +35,7 @@ public class Display
         get { return size; }
         set
         {
-            if ((size != null) && ((size < 0) || (size > Decimal.MaxValue)))
+            if ((value != null) && ((value < 0) || (value > Decimal.MaxValue)))
             {
                 throw new ArgumentException("Invadid size!");
             }
@@ -48,7 +48,7 @@ public class Display
         get { return colors; }
         set
         {
-            if ((colors == null) || ((colors > 0) && (colors <= int.MaxValue)))
+            if ((value == null) || ((value > 0) && (value <= int.MaxValue)))
             {
                 colors = value;
             }
@@ -59,12 +59,5 @@ public class Display
 
         }
     }
-
-
-
-
-
-
-
-
+    
 }

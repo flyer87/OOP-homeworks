@@ -11,8 +11,15 @@ public class GSM
     private decimal? price;
     private string owner;
 
+    // static property
+    private static string iPhone4S = "iPhone 4S";
+
     public Battery battery = new Battery("Nokia battery");
     public Display dispaly = new Display(3.4m, 35564);
+
+    // call history object
+    public List<Call> callHistory = new List<Call>();
+
 
     public GSM()
         : this(null, null, null, null)
@@ -24,8 +31,14 @@ public class GSM
     {
         this.Model = model;
         this.Producer = producer;
-        this.Price = null;
+        this.Price = price;
         this.Owner = owner;
+    }
+
+    public List<Call> CallHistory
+    {
+        get;
+        set;
     }
 
     public string Model
@@ -33,7 +46,7 @@ public class GSM
         get { return model; }
         set
         {
-            if (String.IsNullOrEmpty(model) || String.IsNullOrWhiteSpace(model))
+            if (String.IsNullOrEmpty(value) || String.IsNullOrWhiteSpace(value))
             {
                 throw new ArgumentException("Invalid model name!");
             }
@@ -46,7 +59,7 @@ public class GSM
         get { return producer; }
         set
         {
-            if (String.IsNullOrEmpty(producer) || string.IsNullOrWhiteSpace(producer))
+            if (String.IsNullOrEmpty(value) || string.IsNullOrWhiteSpace(value))
             {
                 throw new ArgumentException("Invalid Manufacturer!");
             }
@@ -59,7 +72,7 @@ public class GSM
         get { return price; }
         set
         {
-            if (price == null || price > 0)
+            if (value == null || value > 0)
             {
                 price = value;
             }
@@ -80,16 +93,61 @@ public class GSM
         }
     }
 
+    public static string IPhone4S
+    {
+        get
+        {
+            return iPhone4S;
+        }
+    }
+
     public override string ToString()
     {
         StringBuilder builder = new StringBuilder();
         builder.Append("GSM:");
-        builder.Append("Model - " + this.model + "; ");
-        builder.Append("Producer - " + this.producer + "; ");
-        builder.Append("Price - " + this.price + "; ");
+        builder.Append("Model - " + this.Model + "; ");
+        builder.Append("Producer - " + this.Producer + "; ");
+        builder.Append("Price - " + this.Price + "; ");
+        builder.Append("Owner - " + this.Owner);
 
         // nor full add data for Battery and Display 
         return builder.ToString();
+    }
+
+    public void AddCall(DateTime callDateTime, string dialedNumber, uint duration)
+    {
+        Call call = new Call(callDateTime, dialedNumber, duration);
+        this.callHistory.Add(call);
+    }
+
+    public void DeleteCalling(uint duration)
+    {
+        for (int i = 0; i < callHistory.Count; i++)
+        {
+            if (callHistory[i].Duration == duration)
+            {
+                callHistory.RemoveAt(i);
+            }
+        }
+    }
+
+    public void ClearCallHistory()
+    {
+        callHistory.Clear();
+    }
+
+    public decimal CalcTotalPrice(decimal price)
+    {
+        decimal totalMinutes = 0;
+        for (int i = 0; i < callHistory.Count; i++)
+        {
+            totalMinutes += callHistory[i].Duration / 60;
+            if (callHistory[i].Duration % 60 > 0)
+            {
+                totalMinutes++;
+            }
+        }
+        return (decimal)totalMinutes * price;
     }
 
 }

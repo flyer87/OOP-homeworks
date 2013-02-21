@@ -50,7 +50,7 @@ public class Battery
         get { return idleTime; }
         set
         {
-            if (idleTime == null || (idleTime > 0 && idleTime <= int.MaxValue))
+            if (value == null || (value > 0 && value <= int.MaxValue))
             {
                 idleTime = value;
             }
@@ -66,7 +66,7 @@ public class Battery
         get { return hoursTalk; }
         set
         {
-            if (hoursTalk == null || (hoursTalk > 0 && hoursTalk < 10))
+            if (value == null || (value > 0 && value < 10))
             {
                 hoursTalk = value;
             }
@@ -83,7 +83,7 @@ public class Battery
         set
         {
             BatteryType bt;
-            if (batteryType == null || batteryType != null) // ??? dali batteryType e w BatteryType
+            if (value == null || value != null) // ??? dali batteryType e w BatteryType
             {
                 batteryType = value;
             }
