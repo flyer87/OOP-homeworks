@@ -8,8 +8,6 @@ public enum BatteryType { LiIon, NiMH, NiCd };
 
 public class Battery
 {
-
-
     private string batteryModel;
     private int? hoursTalk;
     private int? idleTime;

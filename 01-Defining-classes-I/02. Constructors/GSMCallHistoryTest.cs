@@ -14,9 +14,9 @@ class GSMCallHistoryTest
         myGsm.AddCall(DateTime.Parse("21.02.2013 11:00"), "+359881234567", 200);
         myGsm.AddCall(DateTime.Parse("22.02.2013 13:15"), "+359881234567", 1000);
 
-        for (int i = 0; i < myGsm.callHistory.Count; i++)
+        for (int i = 0; i < myGsm.CallHistory.Count; i++)
         {
-            Console.WriteLine(myGsm.callHistory[i]);
+            Console.WriteLine(myGsm.CallHistory[i]);
         }
 
         Console.WriteLine("Total price: ");
@@ -24,11 +24,11 @@ class GSMCallHistoryTest
 
         // finding max duration
         uint maxDuration = uint.MinValue;
-        for (int i = 0; i < myGsm.callHistory.Count; i++)
+        for (int i = 0; i < myGsm.CallHistory.Count; i++)
         {
-            if (myGsm.callHistory[i].Duration > maxDuration)
+            if (myGsm.CallHistory[i].Duration > maxDuration)
             {
-                maxDuration = myGsm.callHistory[i].Duration;
+                maxDuration = myGsm.CallHistory[i].Duration;
             }
         }
 
@@ -40,9 +40,9 @@ class GSMCallHistoryTest
         //Clear call history
         myGsm.ClearCallHistory();
         Console.WriteLine("Call history after deleting it: ");
-        for (int i = 0; i < myGsm.callHistory.Count; i++)
+        for (int i = 0; i < myGsm.CallHistory.Count; i++)
         {
-            Console.WriteLine(myGsm.callHistory[i]);
+            Console.WriteLine(myGsm.CallHistory[i]);
         }
 
     }

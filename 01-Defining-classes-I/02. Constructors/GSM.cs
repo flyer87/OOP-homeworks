@@ -18,7 +18,7 @@ public class GSM
     public Display dispaly = new Display(3.4m, 35564);
 
     // call history object
-    public List<Call> callHistory = new List<Call>();
+    private List<Call> callHistory = new List<Call>();
 
 
     public GSM()
@@ -37,8 +37,10 @@ public class GSM
 
     public List<Call> CallHistory
     {
-        get;
-        set;
+        get
+        {
+            return new List<Call>(callHistory);
+        }
     }
 
     public string Model
