@@ -4,3 +4,6 @@ E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\bin\Debug\_02.Co
 E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\bin\Debug\_02.Constructors.pdb
 E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\obj\Debug\_02.Constructors.exe
 E:\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\obj\Debug\_02.Constructors.pdb
+J:\Yumer\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\bin\Debug\_02.Constructors.exe.config
+J:\Yumer\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\obj\Debug\_02.Constructors.exe
+J:\Yumer\TELERIK\OOP-homeworks\01-Defining-classes-I\02. Constructors\obj\Debug\_02.Constructors.pdb
