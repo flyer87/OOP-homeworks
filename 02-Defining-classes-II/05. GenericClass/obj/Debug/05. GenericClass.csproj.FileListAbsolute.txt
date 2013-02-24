@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\05. GenericClass\bin\Debug\_05.GenericClass.exe.config
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\05. GenericClass\obj\Debug\05. GenericClass.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\05. GenericClass\bin\Debug\_05.GenericClass.exe
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\05. GenericClass\bin\Debug\_05.GenericClass.pdb
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\05. GenericClass\obj\Debug\_05.GenericClass.exe
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\05. GenericClass\obj\Debug\_05.GenericClass.pdb
