@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*
+ * - Define a class Matrix<T> to hold a matrix of numbers (e.g. integers, floats, decimals). 
+ * - Implement an indexer this[row, col] to access the inner matrix cells.
+ * - Implement the operators + and - (addition and subtraction of matrices of the same size) and * for matrix multiplication. 
+     Throw an exception when the operation cannot be performed. 
+ * - Implement the true operator (check for non-zero elements).
+ * - 
+ */
+
+using System;
 using System.Collections.Generic;
 
 class Matrix<T>
@@ -73,7 +82,7 @@ class Matrix<T>
         return tempMatrix;
     }
 
-    public static Matrix<T> operator -(Matrix<T>matrix1, Matrix<T> matrix2)
+    public static Matrix<T> operator -(Matrix<T> matrix1, Matrix<T> matrix2)
     {
         if ((matrix1.maxRow != matrix2.maxRow) || matrix1.maxCol != matrix2.maxCol)
         {
@@ -103,12 +112,43 @@ class Matrix<T>
         Matrix<T> tempMatrix = new Matrix<T>(matrix1.maxRow, matrix1.maxCol);
         for (int row = 0; row < matrix1.maxRow; row++)
         {
-
-
             // https://github.com/Bvaptsarov/Homework/blob/master/10.OOPSecondPart/GenericMatrix/Matrix.cs
             // https://github.com/ivivanov/TelerikAcademy/blob/master/OOP/3DPoint%2C%20GenericList%2C%20GenericMatrix/Matrix/Matrix.cs
         }
 
         return tempMatrix;
     }
+
+    public static bool operator true(Matrix<T> matrix)
+    {
+        for (int row = 0; row < matrix.maxRow; row++)
+        {
+            for (int col = 0; col < matrix.maxCol; col++)
+            {
+                if (matrix[row, col].CompareTo(0) == 0)
+                {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
+    public static bool operator false(Matrix<T> matrix)
+    {
+        for (int row = 0; row < matrix.maxRow; row++)
+        {
+            for (int col = 0; col < matrix.maxCol; col++)
+            {
+                if (matrix[row, col].CompareTo(0) == 0)
+                {
+                    return false;
+                }
+            }
+        }
+
+        return true;
+    }
+
 }

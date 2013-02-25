@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * - Define a class Matrix<T> to hold a matrix of numbers (e.g. integers, floats, decimals). 
+ * - Implement an indexer this[row, col] to access the inner matrix cells.
+ * - Implement the operators + and - (addition and subtraction of matrices of the same size) and * for matrix multiplication. 
+     Throw an exception when the operation cannot be performed. 
+ * - Implement the true operator (check for non-zero elements).
+ */
+
+using System;
 using System.Collections.Generic;
 
 class Program
@@ -26,7 +34,22 @@ class Program
 
         m3 = m1 - m2;
 
+        if (m1)
+        {
+            Console.WriteLine("Matrix m1 has NOT zero elements!");
+        }
+        else
+        {
+            Console.WriteLine("Matrix m1 HAS not zero elements!");
+        }
 
-
+        if (m2)
+        {
+            Console.WriteLine("Matrix m2 has NOT zero elements!");            
+        }
+        else
+        {
+            Console.WriteLine("Matrix m2 HAS zero elements!");            
+        }
     }
 }

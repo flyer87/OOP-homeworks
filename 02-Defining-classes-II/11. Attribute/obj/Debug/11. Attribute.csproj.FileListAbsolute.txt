@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\11. Attribute\bin\Debug\_11.Attribute.exe.config
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\11. Attribute\bin\Debug\_11.Attribute.exe
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\11. Attribute\bin\Debug\_11.Attribute.pdb
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\11. Attribute\obj\Debug\11. Attribute.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\11. Attribute\obj\Debug\_11.Attribute.exe
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\11. Attribute\obj\Debug\_11.Attribute.pdb
