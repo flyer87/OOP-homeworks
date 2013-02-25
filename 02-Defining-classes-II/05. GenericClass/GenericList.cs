@@ -38,13 +38,22 @@ class GenericList<T>
     {
         get
         {
-            if (index >= items.Length - 1)
+            if ((index >= items.Length - 1) || (index < 0))
             {
                 throw new IndexOutOfRangeException(String.Format("Invalid index {0}", index));
             }
 
             T result = items[index];
             return result;
+        }
+        set
+        {
+            if ((index >= items.Length - 1) || (index < 0))
+            {
+                throw new IndexOutOfRangeException(String.Format("Invalid index {0}", index));
+            }
+
+            items[index] = value;
         }
     }
 
@@ -85,6 +94,35 @@ class GenericList<T>
         return Array.IndexOf(this.items, item);
     }
 
+    public T Min<T>() where T : IComparable<T>
+    {
+        dynamic minItem = this.items[0];
+        for (int i = 1; i < currentCount; i++)
+        {
+            if (minItem.CompareTo(this.items[i]) > 0)
+            {
+                minItem = this.items[i];
+            }
+        }
+
+        return (T)minItem;
+    }
+
+    public T Max<T>() where T : IComparable<T>
+    {
+        dynamic maxItem = this.items[0];
+        for (int i = 1; i < currentCount; i++)
+        {
+            if (maxItem.CompareTo(this.items[i]) < 0)
+            {
+                maxItem = this.items[i];
+            }
+        }
+
+        return (T)maxItem;
+    }
+
+
     public override string ToString()
     {
         StringBuilder builder = new StringBuilder();
@@ -92,9 +130,8 @@ class GenericList<T>
         {
             builder.Append(this.items[i] + ", ");
         }
-        builder.Remove(builder.Length - 2, 2);
 
+        builder.Remove(builder.Length - 2, 2);
         return builder.ToString();
     }
-
 }

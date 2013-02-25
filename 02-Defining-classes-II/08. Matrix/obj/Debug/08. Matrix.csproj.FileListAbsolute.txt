@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\08. Matrix\bin\Debug\_08.Matrix.exe.config
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\08. Matrix\bin\Debug\_08.Matrix.exe
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\08. Matrix\bin\Debug\_08.Matrix.pdb
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\08. Matrix\obj\Debug\08. Matrix.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\08. Matrix\obj\Debug\_08.Matrix.exe
+E:\TELERIK\OOP-homeworks\02-Defining-classes-II\08. Matrix\obj\Debug\_08.Matrix.pdb
