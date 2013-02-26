@@ -67,7 +67,7 @@ class Matrix<T>
     {
         if ((matrix1.maxRow != matrix2.maxRow) || matrix1.maxCol != matrix2.maxCol)
         {
-            throw new ArgumentException("Huh! Ne moje da sabirash!");
+            throw new ArgumentException("Huh! You cannot add! Row number AND columns number should be equal!");
         }
 
         Matrix<T> tempMatrix = new Matrix<T>(matrix1.maxRow, matrix1.maxCol);
@@ -86,7 +86,7 @@ class Matrix<T>
     {
         if ((matrix1.maxRow != matrix2.maxRow) || matrix1.maxCol != matrix2.maxCol)
         {
-            throw new ArgumentException("Huh! Ne moje da izwajdash!");
+            throw new ArgumentException("Huh! You cannot substract! Row number AND columns number should be equal!" );
         }
 
         Matrix<T> tempMatrix = new Matrix<T>(matrix1.maxRow, matrix1.maxCol);
@@ -106,14 +106,20 @@ class Matrix<T>
     {
         if ((matrix1.maxCol != matrix2.maxRow))
         {
-            throw new ArgumentException("Huh! Ne moje da umnojawash!");
+            throw new ArgumentException("Huh! You can not multiplicate! Number of first matrix's columns should = Number of second matrix's rows");
         }
 
         Matrix<T> tempMatrix = new Matrix<T>(matrix1.maxRow, matrix1.maxCol);
         for (int row = 0; row < matrix1.maxRow; row++)
         {
-            // https://github.com/Bvaptsarov/Homework/blob/master/10.OOPSecondPart/GenericMatrix/Matrix.cs
-            // https://github.com/ivivanov/TelerikAcademy/blob/master/OOP/3DPoint%2C%20GenericList%2C%20GenericMatrix/Matrix/Matrix.cs
+            // repeat matrix2.maxCol (number of second matrix's columns) times
+            for (int col = 0; col < matrix2.maxCol; col++)
+            {
+                for (int col1 = 0; col1 < matrix1.maxCol; col1++)
+                {
+                    tempMatrix[row, col] += (dynamic)matrix1[row, col1] * matrix2[col1, col];
+                }
+            }
         }
 
         return tempMatrix;
