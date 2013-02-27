@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\TestDel\bin\Debug\TestDel.exe.config
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\TestDel\bin\Debug\TestDel.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\TestDel\bin\Debug\TestDel.pdb
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\TestDel\obj\Debug\TestDel.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\TestDel\obj\Debug\TestDel.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\TestDel\obj\Debug\TestDel.pdb
