@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\01. ExtendSubstring\bin\Debug\_01.ExtendSubstring.exe.config
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\01. ExtendSubstring\bin\Debug\_01.ExtendSubstring.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\01. ExtendSubstring\bin\Debug\_01.ExtendSubstring.pdb
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\01. ExtendSubstring\obj\Debug\01. ExtendSubstring.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\01. ExtendSubstring\obj\Debug\_01.ExtendSubstring.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\01. ExtendSubstring\obj\Debug\_01.ExtendSubstring.pdb

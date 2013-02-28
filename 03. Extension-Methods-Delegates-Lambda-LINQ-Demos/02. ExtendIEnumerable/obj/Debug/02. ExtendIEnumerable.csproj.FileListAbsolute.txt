@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\02. ExtendIEnumerable\bin\Debug\_02.ExtendIEnumerable.exe.config
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\02. ExtendIEnumerable\bin\Debug\_02.ExtendIEnumerable.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\02. ExtendIEnumerable\bin\Debug\_02.ExtendIEnumerable.pdb
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\02. ExtendIEnumerable\obj\Debug\02. ExtendIEnumerable.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\02. ExtendIEnumerable\obj\Debug\_02.ExtendIEnumerable.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\02. ExtendIEnumerable\obj\Debug\_02.ExtendIEnumerable.pdb

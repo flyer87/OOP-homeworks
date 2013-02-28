@@ -1,0 +1,5 @@
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\06. GetIntegers\bin\Debug\_06.GetIntegers.exe.config
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\06. GetIntegers\bin\Debug\_06.GetIntegers.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\06. GetIntegers\bin\Debug\_06.GetIntegers.pdb
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\06. GetIntegers\obj\Debug\_06.GetIntegers.exe
+E:\TELERIK\OOP-homeworks\03. Extension-Methods-Delegates-Lambda-LINQ-Demos\06. GetIntegers\obj\Debug\_06.GetIntegers.pdb
