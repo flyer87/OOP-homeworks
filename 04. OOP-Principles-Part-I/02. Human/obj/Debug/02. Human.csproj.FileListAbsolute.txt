@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\02. Human\bin\Debug\_02.Human.exe.config
+E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\02. Human\bin\Debug\_02.Human.exe
+E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\02. Human\bin\Debug\_02.Human.pdb
+E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\02. Human\obj\Debug\02. Human.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\02. Human\obj\Debug\_02.Human.exe
+E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\02. Human\obj\Debug\_02.Human.pdb

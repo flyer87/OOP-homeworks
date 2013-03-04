@@ -4,15 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Person
+public class Person
 {
     private string name;
+
+    // constructors
+    public Person()
+    {
+    }
 
     public Person(string name)
     {
         this.name = name;
     }
 
+
+    //properties 
     public string Name
     {
         get { return name; }

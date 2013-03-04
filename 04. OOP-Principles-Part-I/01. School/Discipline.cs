@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class Discipline
+public class Discipline
 {
     // -= Fields =-
     private string name;
