@@ -4,3 +4,6 @@ E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\01. School\bin\Debug\_01.Scho
 E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\01. School\bin\Debug\_01.School.pdb
 E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\01. School\obj\Debug\_01.School.exe
 E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\01. School\obj\Debug\_01.School.pdb
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\01. School\bin\Debug\_01.School.exe.config
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\01. School\obj\Debug\_01.School.exe
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\01. School\obj\Debug\_01.School.pdb

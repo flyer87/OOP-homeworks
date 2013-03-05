@@ -43,7 +43,6 @@ class Program
         Console.WriteLine("Average of dogs: {0:0.00}", avgDogs);
 
         // ??? Kitten female 
-
-       
+      
     }
 }

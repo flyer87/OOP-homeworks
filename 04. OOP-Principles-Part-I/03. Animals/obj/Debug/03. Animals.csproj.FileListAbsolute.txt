@@ -4,3 +4,9 @@ E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\bin\Debug\_03.Ani
 E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\bin\Debug\_03.Animals.pdb
 E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\obj\Debug\_03.Animals.exe
 E:\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\obj\Debug\_03.Animals.pdb
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\bin\Debug\_03.Animals.exe.config
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\obj\Debug\_03.Animals.exe
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\obj\Debug\_03.Animals.pdb
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\obj\Debug\03. Animals.csprojResolveAssemblyReference.cache
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\bin\Debug\_03.Animals.exe
+J:\Yumer\TELERIK\OOP-homeworks\04. OOP-Principles-Part-I\03. Animals\bin\Debug\_03.Animals.pdb
