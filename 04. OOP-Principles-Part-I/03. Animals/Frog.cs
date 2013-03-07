@@ -1,7 +1,7 @@
 ﻿class Frog : Animal
 {
     // constructors
-    public Frog(string name, byte age, char sex)
+    public Frog(string name, byte age, AnimalSex sex)
         : base(name, age, sex)
     {
     }

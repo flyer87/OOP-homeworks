@@ -4,7 +4,7 @@ using System.Collections.Generic;
 public class Dog : Animal
 {
     // constructors
-    public Dog(string name, byte age, char sex)
+    public Dog(string name, byte age, AnimalSex sex)
         : base(name, age, sex)
     {
     }

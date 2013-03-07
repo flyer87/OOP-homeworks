@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 
+public enum AnimalSex { male, female }
 public abstract class Animal : ISound
 {
     private string name;
     private byte age;
-    private char sex;
+    private AnimalSex sex;
 
     // consturctors
-    protected Animal(string name, byte age, char sex)
+    protected Animal(string name, byte age, AnimalSex sex)
     {
         this.Name = name;
         this.Age = age;
@@ -16,7 +17,7 @@ public abstract class Animal : ISound
     }
 
     // properties 
-    public char Sex
+    public AnimalSex Sex
     {
         get { return sex; }
         set { sex = value; }
