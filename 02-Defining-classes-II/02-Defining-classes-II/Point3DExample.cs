@@ -27,8 +27,5 @@ class Point3DExample
         {
             Console.WriteLine(point);
         }
-
-
-
     }
 }
