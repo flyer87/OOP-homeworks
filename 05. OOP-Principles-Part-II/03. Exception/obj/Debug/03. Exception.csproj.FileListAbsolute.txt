@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\03. Exception\bin\Debug\_03.Exception.exe.config
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\03. Exception\bin\Debug\_03.Exception.exe
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\03. Exception\bin\Debug\_03.Exception.pdb
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\03. Exception\obj\Debug\03. Exception.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\03. Exception\obj\Debug\_03.Exception.exe
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\03. Exception\obj\Debug\_03.Exception.pdb

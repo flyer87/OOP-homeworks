@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
 static class ExtendIEnumerable
 {
     public static dynamic Sum<T>(this IEnumerable<T> items) 

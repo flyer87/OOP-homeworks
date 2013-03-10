@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\02. Bank\bin\Debug\_02.Bank.exe.config
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\02. Bank\bin\Debug\_02.Bank.exe
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\02. Bank\bin\Debug\_02.Bank.pdb
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\02. Bank\obj\Debug\_02.Bank.exe
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\02. Bank\obj\Debug\_02.Bank.pdb
+E:\TELERIK\OOP-homeworks\05. OOP-Principles-Part-II\02. Bank\obj\Debug\02. Bank.csprojResolveAssemblyReference.cache
