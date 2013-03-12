@@ -1,0 +1,5 @@
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\04. Person\bin\Debug\_04.Person.exe.config
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\04. Person\bin\Debug\_04.Person.exe
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\04. Person\bin\Debug\_04.Person.pdb
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\04. Person\obj\Debug\_04.Person.exe
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\04. Person\obj\Debug\_04.Person.pdb

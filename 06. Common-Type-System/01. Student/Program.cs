@@ -18,8 +18,9 @@ class Program
 
         Student st2 = new Student("Ivo2", "Ivanov2", "Ivanov2", "123456799", "Ruse", "+359", "a2@abv.bg",
             3, University.SofiaUni, Faculty.EngineeringFaculty, Specialty.CST);
-        
+
         // test Equals
+        Console.WriteLine("Test Equals: ");
         Console.WriteLine(st.Equals(st1));
 
         // test !=

@@ -1,0 +1,6 @@
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\06. BitArray64\bin\Debug\_06.BitArray64.exe.config
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\06. BitArray64\bin\Debug\_06.BitArray64.exe
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\06. BitArray64\bin\Debug\_06.BitArray64.pdb
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\06. BitArray64\obj\Debug\06. BitArray64.csprojResolveAssemblyReference.cache
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\06. BitArray64\obj\Debug\_06.BitArray64.exe
+E:\TELERIK\OOP-homeworks\06. Common-Type-System\06. BitArray64\obj\Debug\_06.BitArray64.pdb

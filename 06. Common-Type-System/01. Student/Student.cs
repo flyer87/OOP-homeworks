@@ -246,13 +246,13 @@ class Student : ICloneable, IComparable<Student>
         return this.FirstName.GetHashCode() ^ this.MiddleName.GetHashCode() ^ this.LastName.GetHashCode() ^ this.SSN.GetHashCode() ^ this.University.GetHashCode();
     }
 
-    // override ==
+    // predefine ==
     public static bool operator ==(Student s1, Student s2)
     {
         return s1.Equals(s2);
     }
 
-    // override !=
+    // predefine !=
     public static bool operator !=(Student s1, Student s2)
     {
         return !s1.Equals(s2);
@@ -282,11 +282,8 @@ class Student : ICloneable, IComparable<Student>
 
         return s;
     }
+
     // implementatio of CompareTo()
-    
-    #endregion
-
-
     public int CompareTo(Student other)
     {
         if (!this.LastName.Equals(other.LastName))
@@ -306,4 +303,7 @@ class Student : ICloneable, IComparable<Student>
 
         return 0;
     }
-}
+  
+    #endregion
+
+ }
