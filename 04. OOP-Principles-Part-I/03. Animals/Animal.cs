@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 public enum AnimalSex { male, female }
+
 public abstract class Animal : ISound
 {
     private string name;

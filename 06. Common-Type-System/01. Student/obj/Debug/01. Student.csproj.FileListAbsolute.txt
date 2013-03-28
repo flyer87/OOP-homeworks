@@ -4,3 +4,6 @@ E:\TELERIK\OOP-homeworks\06. Common-Type-System\01. Student\bin\Debug\_01.Studen
 E:\TELERIK\OOP-homeworks\06. Common-Type-System\01. Student\bin\Debug\_01.Student.pdb
 E:\TELERIK\OOP-homeworks\06. Common-Type-System\01. Student\obj\Debug\_01.Student.exe
 E:\TELERIK\OOP-homeworks\06. Common-Type-System\01. Student\obj\Debug\_01.Student.pdb
+J:\yumer\telerik\OOP-homeworks\06. Common-Type-System\01. Student\bin\Debug\_01.Student.exe.config
+J:\yumer\telerik\OOP-homeworks\06. Common-Type-System\01. Student\obj\Debug\_01.Student.exe
+J:\yumer\telerik\OOP-homeworks\06. Common-Type-System\01. Student\obj\Debug\_01.Student.pdb
