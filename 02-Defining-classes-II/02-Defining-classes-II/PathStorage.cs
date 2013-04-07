@@ -26,7 +26,7 @@ static class PathStorage
             string line;
             while ((line = reader.ReadLine()) != null)
             {
-                string[] point = line.Split(',');
+                string[] point = line.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
                 loadPath.AddPoint(new Point3D(Int32.Parse(point[0]), Int32.Parse(point[1]), Int32.Parse(point[2])));
             }
         }

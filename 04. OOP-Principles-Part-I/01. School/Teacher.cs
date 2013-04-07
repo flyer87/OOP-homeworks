@@ -24,7 +24,6 @@ public class Teacher
             name = value;
         }
     }
-
     public List<Discipline> Disciplines
     {
         get
@@ -39,7 +38,6 @@ public class Teacher
     {
         disciplines.Add(discipline);
     }
-
     public void RemoveAt(int index)
     {
         disciplines.RemoveAt(index);
