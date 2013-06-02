@@ -73,6 +73,7 @@ namespace AcademyPopcorn
                 {
                     currBlock = new GiftBlock(new MatrixCoords(startRow, i));
                 }
+
                 engine.AddObject(currBlock);
             }
 

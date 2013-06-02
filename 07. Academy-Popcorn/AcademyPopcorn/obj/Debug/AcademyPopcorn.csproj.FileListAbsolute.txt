@@ -25,3 +25,6 @@ E:\TELERIK\OOP-homeworks\07. Academy-Popcorn\AcademyPopcorn\obj\Debug\AcademyPop
 E:\TELERIK\OOP-homeworks\07. Academy-Popcorn\AcademyPopcorn\bin\Debug\AcademyPopcorn.exe
 E:\TELERIK\OOP-homeworks\07. Academy-Popcorn\AcademyPopcorn\bin\Debug\AcademyPopcorn.pdb
 E:\TELERIK\OOP-homeworks\07. Academy-Popcorn\AcademyPopcorn\obj\Debug\AcademyPopcorn.csprojResolveAssemblyReference.cache
+E:\TELERIK\HW\OOP-homeworks\07. Academy-Popcorn\AcademyPopcorn\bin\Debug\AcademyPopcorn.exe.config
+E:\TELERIK\HW\OOP-homeworks\07. Academy-Popcorn\AcademyPopcorn\obj\Debug\AcademyPopcorn.exe
+E:\TELERIK\HW\OOP-homeworks\07. Academy-Popcorn\AcademyPopcorn\obj\Debug\AcademyPopcorn.pdb
